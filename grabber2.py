@@ -25,7 +25,7 @@ class GrabberArticle:
 
     def __init__(self, url_address):
         self.url = url_address
-        # Get path and filename for saving article by splitting URL.
+        # Получите путь и имя файла для сохранения статьи, разделив URL.
         # If the URL ends with some.html, then the previous (-2) element
         # of the path is taken to form the path and the filename = some.html.txt respectively.
         path_arr = self.url.split('/')
